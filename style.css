@@ -1,0 +1,73 @@
+/* add image at bg */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    color: rgb(210, 21, 21);
+    font-family: monospace;
+    font-size: 4rem;
+}
+.city-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+}
+p1{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.city-input input,
+.city-input button {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+.city-input button {
+    background-color: rgb(57, 231, 57);
+    border: 2px solid rgb(20, 97, 20);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+}
+.city-input button:hover {
+    background-color: rgb(51, 196, 51);
+}
+.weather-data-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+    border: 5px solid rgba(7, 50, 50, 0.514);
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 4rem;
+    height: 50vh;
+    position: relative;
+}
+.weather-data {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.imagee{
+  height: 100px;
+  margin-top: 2rem;
+}
+.temp{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.readings {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1.5rem;
+}
